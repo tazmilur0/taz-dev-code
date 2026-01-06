@@ -34,7 +34,7 @@ header{
     background: url("../images/developer.png"),url(../images/header_bg.png),#FFF8F3;
     background-position: top left, bottom right ;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding-top: 50px;
 }
 nav{
     width: 71%;
@@ -93,7 +93,7 @@ text-decoration: none;
     line-height: 30px;
     margin-bottom: 30px;
 }
-##banner .banner-content img{
+#banner .banner-img img{
     max-width: 585px;
     vertical-align: middle;
 }
