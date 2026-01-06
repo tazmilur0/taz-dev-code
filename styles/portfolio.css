@@ -23,6 +23,26 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+.section-headnig {
+max-width: 827px;
+text-align: center;
+
+}
+.section-headnig h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-headnig p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+
+
+
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -96,4 +116,31 @@ text-decoration: none;
 #banner .banner-img img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+/* About Section */
+#about{
+    padding-top: 130px ;
+}
+#about .about-contaner{
+    width: 71%;
+    max-width: 1140PX;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-contaner .about-info{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card p{
+   font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about-info .info-card h4{
+   font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
 }
