@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
 
-
-}
 
 
 /* shared style */
 .color-orange{
     color: #FD6E0A;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .btn{
     background-color: #FD6E0A;
@@ -51,13 +53,16 @@ margin: 0 auto;
   font-optical-sizing: auto;
 
 }
+
+
+
+
 header{
     background-color: #FFF8F3;
     padding-top:50px;
     background: url("../images/developer.png"),url(../images/header_bg.png),#FFF8F3;
     background-position: 23px 38px , bottom right ;
     background-repeat: no-repeat;
-    padding-top: 50px;
 
 }
 nav{
@@ -127,7 +132,7 @@ text-decoration: none;
 }
 #about .about-contaner{
     width: 71%;
-    max-width: 1140PX;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
@@ -179,6 +184,8 @@ margin-bottom:30px ;
     font-size: 16px;
     line-height: 28px;
 }
+
+
 
 #resume .resume-container{
     width: 71%;
@@ -262,3 +269,97 @@ margin-bottom: 24px;
 border: none;
 color: #757575;
 }
+
+.hide{
+    display: none !important;
+}
+/* Responsive CSS */
+
+@media screen and (max-width:576px) {
+
+#about,#skills,#resume{
+    padding-top: 60px ;
+}
+.btn-group{
+    
+    justify-content: center;
+}
+#about .about-contaner{
+    padding: 20px;
+}
+.skills-container{
+    width: 95%;
+    
+}
+
+.section-headnig h2{
+    font-size: 30px;
+}
+
+#skills .skills-container .skills-box,#about .about-contaner .about-info,.footer-container,
+#resume .resume-container,nav,#banner{
+    flex-direction: column;
+}
+
+.skills-box .skills-card{
+    max-width: 100%;
+}
+
+#about .about-contaner .about-info{
+    gap: 40px;
+}
+
+.footer-container form input[type="text"], input[type="email"], .footer-container form textarea{
+    width: 100%;
+}
+
+
+#resume .resume-container{
+    margin-top: 60px;
+}
+
+.resume-container .resume-card{
+    margin-right: 10px;
+}
+.text-center{
+    margin-top: 20px;
+}
+nav{
+    gap: 20px;
+}
+nav .menu{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#banner{
+    margin: 20px;
+    text-align: center;
+}
+
+#banner .banner-img img{
+    width: 100%;
+}
+#banner .banner-content h1{
+    font-size: 44px;s
+}
+
+
+header{
+    background-color: #FFF8F3;
+    padding-top:50px;
+    background: url(../images/header_bg.png),#FFF8F3;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+}
+
