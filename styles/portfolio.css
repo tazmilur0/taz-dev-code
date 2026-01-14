@@ -295,8 +295,9 @@ color: #757575;
 .section-headnig h2{
     font-size: 30px;
 }
-
-#skills .skills-container .skills-box,#about .about-contaner .about-info,.footer-container,
+/* Common style */
+#skills .skills-container .skills-box,#about .about-contaner 
+.about-info,.footer-container,
 #resume .resume-container,nav,#banner{
     flex-direction: column;
 }
